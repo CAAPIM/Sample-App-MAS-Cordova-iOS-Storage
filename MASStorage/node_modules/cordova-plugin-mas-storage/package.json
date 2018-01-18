@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Users/aglsa02/Development/Cordova-MAS-Storage",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/aglsa02/Development/Cordova-MAS-Storage",
+        "spec": "/Users/aglsa02/Development/Cordova-MAS-Storage",
+        "type": "directory"
+      },
+      "/Users/aglsa02/Development/RegressionCordova/RegressStorage/node_modules"
+    ]
+  ],
+  "_from": "../../Cordova-MAS-Storage",
+  "_id": "cordova-plugin-mas-storage@1.5.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-mas-storage",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/aglsa02/Development/Cordova-MAS-Storage",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/aglsa02/Development/Cordova-MAS-Storage",
+    "spec": "/Users/aglsa02/Development/Cordova-MAS-Storage",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:../../Cordova-MAS-Storage",
+  "_shasum": "03b404ad74607575d6627cfa0ad5b4442054dd74",
+  "_shrinkwrap": null,
+  "_spec": "/Users/aglsa02/Development/Cordova-MAS-Storage",
+  "_where": "/Users/aglsa02/Development/RegressionCordova/RegressStorage/node_modules",
+  "author": {
+    "name": "CA Technologies Ltd."
+  },
+  "bugs": {
+    "url": "https://github.com/CAAPIM/MAS-Storage-Cordova/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-mas-storage",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova MASStorage Plugin",
+  "devDependencies": {},
+  "gitHead": "181265f2a2f04584fde0ed96f27642a1f51d7e59",
+  "homepage": "https://github.com/CAAPIM/MAS-Storage-Cordova#readme",
+  "keywords": [
+    "cordova",
+    "MASStorage",
+    "CA Technologies",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "CA Technologies Ltd.",
+  "name": "cordova-plugin-mas-storage",
+  "optionalDependencies": {},
+  "readme": "# MAS-Storage-Cordova\r\nMAS-Storage-Cordova is the framework with the storage API capabilities for CA Mobile API Gateway.\r\n*********************************************************\r\n\r\n## Features\r\nThe MAS-Storage-Cordova framework provides the following features:\r\n\r\n* Local Storage\r\n* Cloud Storage\r\n\r\n*********************************************************\r\n\r\n## Get Started\r\nFor documentation visit our visit our [developer site](http://mas.ca.com/docs/).\r\n*********************************************************\r\n\r\n## How You Can Contribute\r\nContributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines](https://github.com/CAAPIM/Cordova-MAS-Storage/blob/develop/CONTRIBUTING.md).\r\n\r\n## Generate Reference documents\r\nThe reference documents for the MAS modules are generated using the JSDoc markdown language. JSDoc reads the JS files with annotations in comments, and generates an HTML output. It considers the comments that start with /**.\r\n\r\nTo install JSDoc, follow the instructions on [JSDoc](http://usejsdoc.org/) website.\r\n\r\nThe Cordova reference documents are available at our [mas.ca.com]( http://mas.ca.com/docs/cordova/1.4.00/sdk/) site.\r\n\r\nExample:\r\nAn annotated comment for validateOTP method is as follows:\r\n```\r\n /**\r\n  Validate the OTP.\r\n  * @param {function} successHandler user defined success callback\r\n  * @param {function} errorHandler user defined error callback\r\n  * @param {string} otp user defined one-time password to verify\r\n  */\r\n```\r\n**Param** – Specifies a parameter.\r\n**{string}**  – Specifies the return type of the method.\r\n**otp** – Specifies the variable name.\r\n**user defined one-time password to verify** – Describes the method.\r\n\r\nCompile the JSDoc reference document as follows:\r\n```\r\njsdoc www/ -d jsdocs\r\n```\r\nwhere “www/” is the location of the js file, and “-d jsdocs” is the location where the generated reference documents are placed.\r\n\r\nFor more information about how to write and compile the JSDoc reference documents, see the [JSDoc](http://usejsdoc.org/) website.\r\n\r\n## Communication\r\n\r\n- *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')\r\n- *Find a bug?*, open an issue with the steps to reproduce it.\r\n- *Request a feature or have an idea?*, open an issue.\r\n\r\n## License\r\nCopyright (c) 2016 CA. All rights reserved.\r\n\r\nThis software may be modified and distributed under the terms of the MIT license. See the [LICENSE](https://github.com/CAAPIM/Cordova-MAS-Storage/blob/develop/LICENSE) file for details.\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAAPIM/MAS-Storage-Cordova.git"
+  },
+  "version": "1.5.0"
+}
