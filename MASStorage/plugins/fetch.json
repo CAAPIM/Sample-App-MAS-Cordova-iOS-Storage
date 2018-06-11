@@ -1,26 +1,18 @@
 {
-    "cordova-plugin-whitelist": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-whitelist@1"
-        },
-        "is_top_level": true,
-        "variables": {}
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
     },
-    "cordova-plugin-mas-core": {
-        "source": {
-            "type": "local",
-            "path": "/Users/aglsa02/Development/RegressionCordova/RegressStorage/node_modules/cordova-plugin-mas-core"
-        },
-        "is_top_level": true,
-        "variables": {}
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-mas-core": {
+    "source": {
+      "type": "local",
+      "path": "/Users/aglsa02/Development/cordovaSampleApps/1.7.00/Storage/node_modules/cordova-plugin-mas-core"
     },
-    "cordova-plugin-mas-storage": {
-        "source": {
-            "type": "local",
-            "path": "/Users/aglsa02/Development/RegressionCordova/RegressStorage/node_modules/cordova-plugin-mas-storage"
-        },
-        "is_top_level": true,
-        "variables": {}
-    }
+    "is_top_level": true,
+    "variables": {}
+  }
 }
