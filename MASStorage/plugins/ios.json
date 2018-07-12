@@ -1,0 +1,22 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.ca.apim.storage"
+    },
+    "cordova-plugin-mas-storage": {
+      "PACKAGE_NAME": "com.ca.apim.storage"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-mas-core": {
+      "PACKAGE_NAME": "com.ca.apim.storage"
+    }
+  }
+}
