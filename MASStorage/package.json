@@ -1,26 +1,27 @@
 {
-  "name": "com.ca.apim.storage",
-  "displayName": "Storage",
-  "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Apache Cordova Team",
-  "license": "Apache-2.0",
-  "cordova": {
-    "plugins": {
-      "cordova-plugin-whitelist": {},
-      "cordova-plugin-mas-core": {}
+    "name": "com.ca.apim.storage",
+    "displayName": "Storage",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "platforms": [
-      "ios"
-    ]
-  },
-  "dependencies": {
-    "cordova-ios": "/Users/aglsa02/Desktop/cordova-ios/",
-    "cordova-plugin-mas-core": "file:../../../Cordova-MAS-Foundation",
-    "cordova-plugin-whitelist": "^1.3.3"
-  }
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-mas-storage": {}
+        },
+        "platforms": [
+            "ios"
+        ]
+    },
+    "dependencies": {
+        "cordova-plugin-mas-core": "^1.7.12",
+        "cordova-plugin-mas-storage": "^1.7.12",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "cordova-ios": "/Users/yussy01/WorkSpace/MAS/Cordova/Dev/mas-cli/Support/cordova-ios/"
+    }
 }

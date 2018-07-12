@@ -37,6 +37,9 @@
     <feature name="MASPluginAuthProviders">
         <param name="ios-package" value="MASPluginAuthProviders" />
     </feature>
+    <feature name="MASStoragePlugin">
+        <param name="ios-package" value="MASStoragePlugin" />
+    </feature>
     <name>Storage</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

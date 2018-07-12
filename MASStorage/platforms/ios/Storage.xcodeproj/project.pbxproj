@@ -5,30 +5,26 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		0C9908C040D632B990E7FD42 /* libPods-Storage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E73323954FE78772733B6EBD /* libPods-Storage.a */; };
+		11E3DE6B7B464CAA9FE89A90 /* MASPluginAuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A909E3A30F15486FB8B1753E /* MASPluginAuthenticationController.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		24823D1A454E421E8FA6DE11 /* MASStoragePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 98565F155BDC4EB6B38AFF23 /* MASStoragePlugin.m */; };
+		2BC302BDBFB64B4384BDC6D7 /* MASPluginGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1DC77A1324472FA3151BC2 /* MASPluginGroup.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		4E77290EF0C04A6A8956804D /* msso_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 87E670D9B99C499FAFB13CC8 /* msso_config.json */; };
+		33C583EE015A40C8BA760455 /* MASPluginDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D807185CA34487B63873C7 /* MASPluginDevice.m */; };
+		4390721153A34ECC8845CF11 /* MASPluginApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = E2186B79E2444D7F9B808DD0 /* MASPluginApplication.m */; };
+		5218FB07B69C4C4DBB765E26 /* MASPluginAuthProviders.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BCE3F1600E417F8674AB05 /* MASPluginAuthProviders.m */; };
+		5A6E9306445245BBA5FC5428 /* MASPluginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A9D39A628F4D9981707CC8 /* MASPluginUser.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		D668371420CA8EA600EE54CF /* MASFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668371120CA8EA500EE54CF /* MASFoundation.framework */; };
-		D668371520CA8EA600EE54CF /* MASFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D668371120CA8EA500EE54CF /* MASFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D668371620CA8EA600EE54CF /* MASUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668371220CA8EA600EE54CF /* MASUI.framework */; };
-		D668371720CA8EA600EE54CF /* MASUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D668371220CA8EA600EE54CF /* MASUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D668371820CA8EA600EE54CF /* MASStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668371320CA8EA600EE54CF /* MASStorage.framework */; };
-		D668371920CA8EA600EE54CF /* MASStorage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D668371320CA8EA600EE54CF /* MASStorage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7B06A4AC79554EAB942B38BF /* MASPluginMAS.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DBF0656FD041EAAF400B20 /* MASPluginMAS.m */; };
-		CD553779F158442381EAD447 /* MASPluginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C6156E111FEA4EEE8E86F8CA /* MASPluginUser.m */; };
-		B0D3A5F06F8E4A4B8CAEB7C8 /* MASPluginGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD095C4A2374163ADC1FD3B /* MASPluginGroup.m */; };
-		A54BDCF2A9FF46CD86250472 /* MASPluginDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A45CC2B82141C59D2E871F /* MASPluginDevice.m */; };
-		B1A7CF71472C4024A2B19197 /* MASPluginApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A9FFE0E63F4B39971A7203 /* MASPluginApplication.m */; };
-		8B60577B8B55494CA1B8D408 /* MASPluginAuthProviders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58C15F96DB4B818AB45444 /* MASPluginAuthProviders.m */; };
-		579455477D8E49E4BCE8AFF6 /* MASPluginAuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB43B8C154545FB824CECBC /* MASPluginAuthenticationController.m */; };
-		6EF4DEC6A45C4DB6970CD540 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EAD4055C14A008C964704 /* WebViewController.m */; };
-		28BEAC4193B746AFA82B5728 /* EnterpriseBrowser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202C2762085943788FC2BD5F /* EnterpriseBrowser.storyboard */; };
+		C8432609180448A2A8BFD641 /* EnterpriseBrowser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6772F8337B0D4C5D97717C94 /* EnterpriseBrowser.storyboard */; };
+		C8B5A956C78B4FA7884DEF2E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B42A5D01F3459DB5745D2D /* WebViewController.m */; };
+		FC844047554D45F7B1E74F51 /* MASPluginMAS.m in Sources */ = {isa = PBXBuildFile; fileRef = 600E458A08A44258B73DA12D /* MASPluginMAS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +42,7 @@
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = CordovaLib;
 		};
-		D668370F20CA8E9800EE54CF /* PBXContainerItemProxy */ = {
+		A8DA3F1A20F782B5007F3199 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
 			proxyType = 2;
@@ -55,27 +51,12 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		D668371A20CA8EA600EE54CF /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D668371920CA8EA600EE54CF /* MASStorage.framework in Embed Frameworks */,
-				D668371720CA8EA600EE54CF /* MASUI.framework in Embed Frameworks */,
-				D668371520CA8EA600EE54CF /* MASFoundation.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Storage/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Storage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		272ABC66CD3141618A368D9E /* MASPluginAuthenticationController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginAuthenticationController.h; path = "cordova-plugin-mas-core/MASPluginAuthenticationController.h"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
@@ -86,33 +67,32 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* Storage-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Storage-Prefix.pch"; sourceTree = "<group>"; };
+		5E2AC5EE844541AFB7E1F964 /* MASPluginUser.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginUser.h; path = "cordova-plugin-mas-core/MASPluginUser.h"; sourceTree = "<group>"; };
+		600E458A08A44258B73DA12D /* MASPluginMAS.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginMAS.m; path = "cordova-plugin-mas-core/MASPluginMAS.m"; sourceTree = "<group>"; };
+		62BCE3F1600E417F8674AB05 /* MASPluginAuthProviders.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginAuthProviders.m; path = "cordova-plugin-mas-core/MASPluginAuthProviders.m"; sourceTree = "<group>"; };
+		6663AF12505540CBBD394638 /* MASPluginApplication.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginApplication.h; path = "cordova-plugin-mas-core/MASPluginApplication.h"; sourceTree = "<group>"; };
+		6772F8337B0D4C5D97717C94 /* EnterpriseBrowser.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = EnterpriseBrowser.storyboard; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = Storage/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		87E670D9B99C499FAFB13CC8 /* msso_config.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = msso_config.json; path = /Users/aglsa02/masconfig/msso_config.json; sourceTree = "<group>"; };
+		6B1DC77A1324472FA3151BC2 /* MASPluginGroup.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginGroup.m; path = "cordova-plugin-mas-core/MASPluginGroup.m"; sourceTree = "<group>"; };
+		71FF2F5D8C3D4F3AA0EF91B5 /* MASStoragePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASStoragePlugin.h; path = "cordova-plugin-mas-storage/MASStoragePlugin.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Storage-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Storage-Info.plist"; path = "Storage/Storage-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		D668371120CA8EA500EE54CF /* MASFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASFoundation.framework; sourceTree = "<group>"; };
-		D668371220CA8EA600EE54CF /* MASUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASUI.framework; sourceTree = "<group>"; };
-		D668371320CA8EA600EE54CF /* MASStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASStorage.framework; sourceTree = "<group>"; };
+		98565F155BDC4EB6B38AFF23 /* MASStoragePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASStoragePlugin.m; path = "cordova-plugin-mas-storage/MASStoragePlugin.m"; sourceTree = "<group>"; };
+		A8DA3F1C20F782DF007F3199 /* Storage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Storage.entitlements; path = Storage/Storage.entitlements; sourceTree = "<group>"; };
+		A909E3A30F15486FB8B1753E /* MASPluginAuthenticationController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginAuthenticationController.m; path = "cordova-plugin-mas-core/MASPluginAuthenticationController.m"; sourceTree = "<group>"; };
+		ACC5CA6339ED443E9BD701BD /* MASPluginAuthProviders.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginAuthProviders.h; path = "cordova-plugin-mas-core/MASPluginAuthProviders.h"; sourceTree = "<group>"; };
+		B68E1D89CF274158926D1ABD /* MASPluginGroup.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginGroup.h; path = "cordova-plugin-mas-core/MASPluginGroup.h"; sourceTree = "<group>"; };
+		B9A9D39A628F4D9981707CC8 /* MASPluginUser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginUser.m; path = "cordova-plugin-mas-core/MASPluginUser.m"; sourceTree = "<group>"; };
+		E2186B79E2444D7F9B808DD0 /* MASPluginApplication.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginApplication.m; path = "cordova-plugin-mas-core/MASPluginApplication.m"; sourceTree = "<group>"; };
+		E242F0BDAB394548824570FB /* MASPluginDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginDevice.h; path = "cordova-plugin-mas-core/MASPluginDevice.h"; sourceTree = "<group>"; };
+		E3B42A5D01F3459DB5745D2D /* WebViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = "cordova-plugin-mas-core/WebViewController.m"; sourceTree = "<group>"; };
+		E73323954FE78772733B6EBD /* libPods-Storage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Storage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D807185CA34487B63873C7 /* MASPluginDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginDevice.m; path = "cordova-plugin-mas-core/MASPluginDevice.m"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		EE8C309A10BC4A56AD0B0343 /* WebViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = "cordova-plugin-mas-core/WebViewController.h"; sourceTree = "<group>"; };
+		F32782719DD24AE18EFF7F60 /* MASPluginMAS.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginMAS.h; path = "cordova-plugin-mas-core/MASPluginMAS.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = Storage/config.xml; sourceTree = "<group>"; };
-		07DBF0656FD041EAAF400B20 /* MASPluginMAS.m */ = {isa = PBXFileReference; name = "MASPluginMAS.m"; path = "cordova-plugin-mas-core/MASPluginMAS.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		C6156E111FEA4EEE8E86F8CA /* MASPluginUser.m */ = {isa = PBXFileReference; name = "MASPluginUser.m"; path = "cordova-plugin-mas-core/MASPluginUser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		ADD095C4A2374163ADC1FD3B /* MASPluginGroup.m */ = {isa = PBXFileReference; name = "MASPluginGroup.m"; path = "cordova-plugin-mas-core/MASPluginGroup.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		39A45CC2B82141C59D2E871F /* MASPluginDevice.m */ = {isa = PBXFileReference; name = "MASPluginDevice.m"; path = "cordova-plugin-mas-core/MASPluginDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		A3A9FFE0E63F4B39971A7203 /* MASPluginApplication.m */ = {isa = PBXFileReference; name = "MASPluginApplication.m"; path = "cordova-plugin-mas-core/MASPluginApplication.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		0A58C15F96DB4B818AB45444 /* MASPluginAuthProviders.m */ = {isa = PBXFileReference; name = "MASPluginAuthProviders.m"; path = "cordova-plugin-mas-core/MASPluginAuthProviders.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		5CB43B8C154545FB824CECBC /* MASPluginAuthenticationController.m */ = {isa = PBXFileReference; name = "MASPluginAuthenticationController.m"; path = "cordova-plugin-mas-core/MASPluginAuthenticationController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		819EAD4055C14A008C964704 /* WebViewController.m */ = {isa = PBXFileReference; name = "WebViewController.m"; path = "cordova-plugin-mas-core/WebViewController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		E4F1EF51F429498C8217B477 /* MASPluginMAS.h */ = {isa = PBXFileReference; name = "MASPluginMAS.h"; path = "cordova-plugin-mas-core/MASPluginMAS.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		A9D2657845A14D0DAC698848 /* MASPluginUser.h */ = {isa = PBXFileReference; name = "MASPluginUser.h"; path = "cordova-plugin-mas-core/MASPluginUser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		82956121BF2D4FC0877AEBA4 /* MASPluginGroup.h */ = {isa = PBXFileReference; name = "MASPluginGroup.h"; path = "cordova-plugin-mas-core/MASPluginGroup.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		2CF13362E7C244ECB4965C5D /* MASPluginDevice.h */ = {isa = PBXFileReference; name = "MASPluginDevice.h"; path = "cordova-plugin-mas-core/MASPluginDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		F655D57C762B428EBC49E67F /* MASPluginApplication.h */ = {isa = PBXFileReference; name = "MASPluginApplication.h"; path = "cordova-plugin-mas-core/MASPluginApplication.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		5DAFD1799EDF4E8FAA576118 /* MASPluginAuthProviders.h */ = {isa = PBXFileReference; name = "MASPluginAuthProviders.h"; path = "cordova-plugin-mas-core/MASPluginAuthProviders.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		361676F66C894C1A9B804E2A /* MASPluginAuthenticationController.h */ = {isa = PBXFileReference; name = "MASPluginAuthenticationController.h"; path = "cordova-plugin-mas-core/MASPluginAuthenticationController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		4813F0616E71494A824BC5EE /* WebViewController.h */ = {isa = PBXFileReference; name = "WebViewController.h"; path = "cordova-plugin-mas-core/WebViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		202C2762085943788FC2BD5F /* EnterpriseBrowser.storyboard */ = {isa = PBXFileReference; name = "EnterpriseBrowser.storyboard"; path = "EnterpriseBrowser.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				D668371420CA8EA600EE54CF /* MASFoundation.framework in Frameworks */,
-				D668371820CA8EA600EE54CF /* MASStorage.framework in Frameworks */,
-				D668371620CA8EA600EE54CF /* MASUI.framework in Frameworks */,
+				0C9908C040D632B990E7FD42 /* libPods-Storage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,9 +132,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				D668371120CA8EA500EE54CF /* MASFoundation.framework */,
-				D668371320CA8EA600EE54CF /* MASStorage.framework */,
-				D668371220CA8EA600EE54CF /* MASUI.framework */,
+				A8DA3F1C20F782DF007F3199 /* Storage.entitlements */,
 				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF31871DA8E0020F90C /* www */,
 				EB87FDF11871DA420020F90C /* Staging */,
@@ -167,6 +143,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				8D548327161363491CA5C356 /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -189,8 +166,7 @@
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* Storage-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
-				87E670D9B99C499FAFB13CC8 /* msso_config.json */,
-				202C2762085943788FC2BD5F /* EnterpriseBrowser.storyboard */,
+				6772F8337B0D4C5D97717C94 /* EnterpriseBrowser.storyboard */,
 			);
 			name = Resources;
 			path = Storage/Resources;
@@ -199,6 +175,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E73323954FE78772733B6EBD /* libPods-Storage.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				301BF535109A57CC0062928A /* libCordova.a */,
-				D668371020CA8E9800EE54CF /* Cordova.framework */,
+				A8DA3F1B20F782B5007F3199 /* Cordova.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,26 +202,35 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				07DBF0656FD041EAAF400B20 /* MASPluginMAS.m */,
-				C6156E111FEA4EEE8E86F8CA /* MASPluginUser.m */,
-				ADD095C4A2374163ADC1FD3B /* MASPluginGroup.m */,
-				39A45CC2B82141C59D2E871F /* MASPluginDevice.m */,
-				A3A9FFE0E63F4B39971A7203 /* MASPluginApplication.m */,
-				0A58C15F96DB4B818AB45444 /* MASPluginAuthProviders.m */,
-				5CB43B8C154545FB824CECBC /* MASPluginAuthenticationController.m */,
-				819EAD4055C14A008C964704 /* WebViewController.m */,
-				E4F1EF51F429498C8217B477 /* MASPluginMAS.h */,
-				A9D2657845A14D0DAC698848 /* MASPluginUser.h */,
-				82956121BF2D4FC0877AEBA4 /* MASPluginGroup.h */,
-				2CF13362E7C244ECB4965C5D /* MASPluginDevice.h */,
-				F655D57C762B428EBC49E67F /* MASPluginApplication.h */,
-				5DAFD1799EDF4E8FAA576118 /* MASPluginAuthProviders.h */,
-				361676F66C894C1A9B804E2A /* MASPluginAuthenticationController.h */,
-				4813F0616E71494A824BC5EE /* WebViewController.h */,
+				600E458A08A44258B73DA12D /* MASPluginMAS.m */,
+				B9A9D39A628F4D9981707CC8 /* MASPluginUser.m */,
+				6B1DC77A1324472FA3151BC2 /* MASPluginGroup.m */,
+				E7D807185CA34487B63873C7 /* MASPluginDevice.m */,
+				E2186B79E2444D7F9B808DD0 /* MASPluginApplication.m */,
+				62BCE3F1600E417F8674AB05 /* MASPluginAuthProviders.m */,
+				A909E3A30F15486FB8B1753E /* MASPluginAuthenticationController.m */,
+				E3B42A5D01F3459DB5745D2D /* WebViewController.m */,
+				F32782719DD24AE18EFF7F60 /* MASPluginMAS.h */,
+				5E2AC5EE844541AFB7E1F964 /* MASPluginUser.h */,
+				B68E1D89CF274158926D1ABD /* MASPluginGroup.h */,
+				E242F0BDAB394548824570FB /* MASPluginDevice.h */,
+				6663AF12505540CBBD394638 /* MASPluginApplication.h */,
+				ACC5CA6339ED443E9BD701BD /* MASPluginAuthProviders.h */,
+				272ABC66CD3141618A368D9E /* MASPluginAuthenticationController.h */,
+				EE8C309A10BC4A56AD0B0343 /* WebViewController.h */,
+				98565F155BDC4EB6B38AFF23 /* MASStoragePlugin.m */,
+				71FF2F5D8C3D4F3AA0EF91B5 /* MASStoragePlugin.h */,
 			);
 			name = Plugins;
 			path = Storage/Plugins;
 			sourceTree = SOURCE_ROOT;
+		};
+		8D548327161363491CA5C356 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
 		};
 		EB87FDF11871DA420020F90C /* Staging */ = {
 			isa = PBXGroup;
@@ -262,15 +248,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Storage" */;
 			buildPhases = (
+				53CF64E42B3418E263C84274 /* [CP] Check Pods Manifest.lock */,
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				32B7B6BFA5FA46ADA835283D /* Run a script */,
-				D668371A20CA8EA600EE54CF /* Embed Frameworks */,
-				02F339EEFB5148FE9240693B /* Run a script */,
-				24D114875121445D92A7A6E3 /* Run a script */,
-				9B92BF0570A249119392DDD0 /* Run a script */,
+				3095274F9ED4CE19F458DFE4 /* [CP] Embed Pods Frameworks */,
+				FC86B3F12B9B5864478DEDC3 /* [CP] Copy Pods Resources */,
+				C10184E6A3004BB785A0C2F2 /* Run a script */,
 			);
 			buildRules = (
 			);
@@ -291,7 +276,7 @@
 				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 2JJZ96P8P5;
+						DevelopmentTeam = RAKRWMN9VH;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -309,6 +294,7 @@
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
@@ -331,11 +317,11 @@
 			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D668371020CA8E9800EE54CF /* Cordova.framework */ = {
+		A8DA3F1B20F782B5007F3199 /* Cordova.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Cordova.framework;
-			remoteRef = D668370F20CA8E9800EE54CF /* PBXContainerItemProxy */;
+			remoteRef = A8DA3F1A20F782B5007F3199 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -348,8 +334,7 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
-				4E77290EF0C04A6A8956804D /* msso_config.json in Resources */,
-				28BEAC4193B746AFA82B5728 /* EnterpriseBrowser.storyboard in Resources */,
+				C8432609180448A2A8BFD641 /* EnterpriseBrowser.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +356,47 @@
 			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
 			showEnvVarsInLog = 0;
 		};
-		32B7B6BFA5FA46ADA835283D /* Run a script */ = {
+		3095274F9ED4CE19F458DFE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Storage/Pods-Storage-frameworks.sh",
+				"${PODS_ROOT}/MASFoundation/MASFoundation.framework",
+				"${PODS_ROOT}/MASStorage/MASStorage.framework",
+				"${PODS_ROOT}/MASUI/MASUI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASUI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Storage/Pods-Storage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CF64E42B3418E263C84274 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Storage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10184E6A3004BB785A0C2F2 /* Run a script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,128 +410,20 @@
 			shellPath = /bin/sh;
 			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone";
 		};
-		02F339EEFB5148FE9240693B /* Run a script */ = {
+		FC86B3F12B9B5864478DEDC3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-			name = "Run a script";
 			inputPaths = (
 			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"
-
-# This script loops through the frameworks embedded in the application and
-# removes unused architectures.
-find \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK
-do
-FRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)
-FRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"
-echo \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"
-
-EXTRACTED_ARCHS=()
-
-for ARCH in $ARCHS
-do
-echo \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"
-lipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"
-EXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")
-done
-
-echo \"Merging extracted architectures: ${ARCHS}\"
-lipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"
-rm \"${EXTRACTED_ARCHS[@]}\"
-
-echo \"Replacing original executable with thinned version\"
-rm \"$FRAMEWORK_EXECUTABLE_PATH\"
-mv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"
-
-done";
-		};
-		24D114875121445D92A7A6E3 /* Run a script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			name = "Run a script";
-			inputPaths = (
-			);
-			outputPaths = (
-			);
 			shellPath = /bin/sh;
-			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"
-
-# This script loops through the frameworks embedded in the application and
-# removes unused architectures.
-find \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK
-do
-FRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)
-FRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"
-echo \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"
-
-EXTRACTED_ARCHS=()
-
-for ARCH in $ARCHS
-do
-echo \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"
-lipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"
-EXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")
-done
-
-echo \"Merging extracted architectures: ${ARCHS}\"
-lipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"
-rm \"${EXTRACTED_ARCHS[@]}\"
-
-echo \"Replacing original executable with thinned version\"
-rm \"$FRAMEWORK_EXECUTABLE_PATH\"
-mv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"
-
-done";
-		};
-		9B92BF0570A249119392DDD0 /* Run a script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			name = "Run a script";
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"
-
-# This script loops through the frameworks embedded in the application and
-# removes unused architectures.
-find \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK
-do
-FRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)
-FRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"
-echo \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"
-
-EXTRACTED_ARCHS=()
-
-for ARCH in $ARCHS
-do
-echo \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"
-lipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"
-EXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")
-done
-
-echo \"Merging extracted architectures: ${ARCHS}\"
-lipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"
-rm \"${EXTRACTED_ARCHS[@]}\"
-
-echo \"Replacing original executable with thinned version\"
-rm \"$FRAMEWORK_EXECUTABLE_PATH\"
-mv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"
-
-done";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Storage/Pods-Storage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -518,14 +435,15 @@ done";
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				7B06A4AC79554EAB942B38BF /* MASPluginMAS.m in Sources */,
-				CD553779F158442381EAD447 /* MASPluginUser.m in Sources */,
-				B0D3A5F06F8E4A4B8CAEB7C8 /* MASPluginGroup.m in Sources */,
-				A54BDCF2A9FF46CD86250472 /* MASPluginDevice.m in Sources */,
-				B1A7CF71472C4024A2B19197 /* MASPluginApplication.m in Sources */,
-				8B60577B8B55494CA1B8D408 /* MASPluginAuthProviders.m in Sources */,
-				579455477D8E49E4BCE8AFF6 /* MASPluginAuthenticationController.m in Sources */,
-				6EF4DEC6A45C4DB6970CD540 /* WebViewController.m in Sources */,
+				FC844047554D45F7B1E74F51 /* MASPluginMAS.m in Sources */,
+				5A6E9306445245BBA5FC5428 /* MASPluginUser.m in Sources */,
+				2BC302BDBFB64B4384BDC6D7 /* MASPluginGroup.m in Sources */,
+				33C583EE015A40C8BA760455 /* MASPluginDevice.m in Sources */,
+				4390721153A34ECC8845CF11 /* MASPluginApplication.m in Sources */,
+				5218FB07B69C4C4DBB765E26 /* MASPluginAuthProviders.m in Sources */,
+				11E3DE6B7B464CAA9FE89A90 /* MASPluginAuthenticationController.m in Sources */,
+				C8B5A956C78B4FA7884DEF2E /* WebViewController.m in Sources */,
+				24823D1A454E421E8FA6DE11 /* MASStoragePlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,12 +467,9 @@ done";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Storage/Storage.entitlements;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 2JJZ96P8P5;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				DEVELOPMENT_TEAM = RAKRWMN9VH;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -578,12 +493,10 @@ done";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Storage/Storage.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = 2JJZ96P8P5;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				DEVELOPMENT_TEAM = RAKRWMN9VH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Storage/Storage-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
