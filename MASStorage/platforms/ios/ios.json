@@ -10,7 +10,7 @@
           "/*": [
             {
               "xml": "<preference name=\"deployment-target\" value=\"9.0\" />",
-              "count": 2
+              "count": 1
             },
             {
               "xml": "<feature name=\"MASPluginMAS\"><param name=\"ios-package\" value=\"MASPluginMAS\" /></feature>",
@@ -35,10 +35,6 @@
             {
               "xml": "<feature name=\"MASPluginAuthProviders\"><param name=\"ios-package\" value=\"MASPluginAuthProviders\" /></feature>",
               "count": 1
-            },
-            {
-              "xml": "<feature name=\"MASStoragePlugin\"><param name=\"ios-package\" value=\"MASStoragePlugin\" /></feature>",
-              "count": 1
             }
           ]
         }
@@ -47,13 +43,10 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.ca.apim.storage"
+      "PACKAGE_NAME": "com.ca.apim.Storage"
     },
     "cordova-plugin-mas-core": {
-      "PACKAGE_NAME": "com.ca.apim.storage"
-    },
-    "cordova-plugin-mas-storage": {
-      "PACKAGE_NAME": "com.ca.apim.storage"
+      "PACKAGE_NAME": "com.ca.apim.Storage"
     }
   },
   "dependent_plugins": {},
@@ -153,19 +146,10 @@
       "clobbers": [
         "MASPluginSecurityConfiguration"
       ]
-    },
-    {
-      "id": "cordova-plugin-mas-storage.MASStoragePlugin",
-      "file": "plugins/cordova-plugin-mas-storage/www/MASStoragePlugin.js",
-      "pluginId": "cordova-plugin-mas-storage",
-      "clobbers": [
-        "MASStoragePlugin"
-      ]
     }
   ],
   "plugin_metadata": {
     "cordova-plugin-whitelist": "1.3.3",
-    "cordova-plugin-mas-core": "0.1.0",
-    "cordova-plugin-mas-storage": "0.1.0"
+    "cordova-plugin-mas-core": "0.1.0"
   }
 }

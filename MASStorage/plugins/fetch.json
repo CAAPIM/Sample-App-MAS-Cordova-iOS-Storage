@@ -9,8 +9,8 @@
   },
   "cordova-plugin-mas-storage": {
     "source": {
-      "type": "registry",
-      "id": "cordova-plugin-mas-storage"
+      "type": "local",
+      "path": "/Users/yussy01/Desktop/SampleApps/MASStorage/node_modules/cordova-plugin-mas-storage"
     },
     "is_top_level": true,
     "variables": {}
