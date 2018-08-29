@@ -12,7 +12,6 @@
 		0DDEEB2422564E6DA989980D /* MASPluginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A0591E0BA74B4CA2D05B15 /* MASPluginUser.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		261EFCCAD127446488693E21 /* msso_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 66F456A4B9A84AF688F14943 /* msso_config.json */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
@@ -99,7 +98,6 @@
 		486E1C7B0F98427CB7EA23B4 /* MASPluginGroup.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginGroup.m; path = "cordova-plugin-mas-core/MASPluginGroup.m"; sourceTree = "<group>"; };
 		4DBD0E5959A447849D96E3EE /* MASPluginGroup.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginGroup.h; path = "cordova-plugin-mas-core/MASPluginGroup.h"; sourceTree = "<group>"; };
 		4E4ED2AE0E3342BF916B7190 /* MASPluginAuthProviders.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginAuthProviders.h; path = "cordova-plugin-mas-core/MASPluginAuthProviders.h"; sourceTree = "<group>"; };
-		66F456A4B9A84AF688F14943 /* msso_config.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = msso_config.json; path = /Users/yussy01/Desktop/SampleApps/MASStorage/platforms/ios/msso_config.json; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = Storage/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		6DC01046C9C040F8934CD247 /* MASPluginApplication.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginApplication.h; path = "cordova-plugin-mas-core/MASPluginApplication.h"; sourceTree = "<group>"; };
 		73E227B8ED5F401992FAB03E /* MASPluginMAS.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginMAS.m; path = "cordova-plugin-mas-core/MASPluginMAS.m"; sourceTree = "<group>"; };
@@ -194,7 +192,6 @@
 				8D1107310486CEB800E47090 /* Storage-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
 				B1DE8CE3B33045BE85DE48ED /* EnterpriseBrowser.storyboard */,
-				66F456A4B9A84AF688F14943 /* msso_config.json */,
 			);
 			name = Resources;
 			path = Storage/Resources;
@@ -363,7 +360,6 @@
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
 				3A87FCF2FD2D4F9A8EFE59C9 /* EnterpriseBrowser.storyboard in Resources */,
-				261EFCCAD127446488693E21 /* msso_config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
