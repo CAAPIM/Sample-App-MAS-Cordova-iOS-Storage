@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ca.apim.storage" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ca.apim.Storage" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Storage</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -23,6 +23,5 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="cordova-plugin-mas-storage" spec="^1.7.12" />
     <engine name="ios" spec="/Users/yussy01/WorkSpace/MAS/Cordova/Dev/mas-cli/Support/cordova-ios/" />
 </widget>

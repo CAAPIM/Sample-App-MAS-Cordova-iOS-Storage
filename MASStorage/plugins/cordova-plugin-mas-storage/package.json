@@ -1,35 +1,7 @@
 {
-  "_from": "cordova-plugin-mas-storage",
-  "_id": "cordova-plugin-mas-storage@1.7.12",
-  "_inBundle": false,
-  "_integrity": "sha512-afJFrpM4jlAetGjVF7CVPFUBZdH8Qd4d7waXQUJ1fFDU/fmwQ5ZtP9sIqIB7SuDVj6H8jF7qvJCjp/f1vima+w==",
-  "_location": "/cordova-plugin-mas-storage",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-mas-storage",
-    "name": "cordova-plugin-mas-storage",
-    "escapedName": "cordova-plugin-mas-storage",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-mas-storage/-/cordova-plugin-mas-storage-1.7.12.tgz",
-  "_shasum": "4205284456c4f0f70272102896ba08c724521351",
-  "_spec": "cordova-plugin-mas-storage",
-  "_where": "/Users/yussy01/Desktop/SampleApps/MASStorage",
-  "author": {
-    "name": "CA Technologies Ltd."
-  },
-  "bugs": {
-    "url": "https://github.com/CAAPIM/Cordova-MAS-Storage/issues"
-  },
-  "bundleDependencies": false,
+  "name": "cordova-plugin-mas-storage",
+  "version": "1.8.00",
+  "description": "Cordova MAS Storage Plugin",
   "cordova": {
     "id": "cordova-plugin-mas-storage",
     "platforms": [
@@ -37,9 +9,10 @@
       "android"
     ]
   },
-  "deprecated": false,
-  "description": "Cordova MAS Storage Plugin",
-  "homepage": "https://github.com/CAAPIM/Cordova-MAS-Storage#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAAPIM/Cordova-MAS-Storage.git"
+  },
   "keywords": [
     "cordova",
     "MASStorage",
@@ -48,11 +21,10 @@
     "cordova-ios",
     "cordova-android"
   ],
+  "author": "CA Technologies Ltd.",
   "license": "CA Technologies Ltd.",
-  "name": "cordova-plugin-mas-storage",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CAAPIM/Cordova-MAS-Storage.git"
+  "bugs": {
+    "url": "https://github.com/CAAPIM/Cordova-MAS-Storage/issues"
   },
-  "version": "1.7.12"
+  "homepage": "https://github.com/CAAPIM/Cordova-MAS-Storage#readme"
 }

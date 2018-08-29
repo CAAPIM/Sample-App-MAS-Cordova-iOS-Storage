@@ -11,16 +11,15 @@
     "license": "Apache-2.0",
     "cordova": {
         "plugins": {
-            "cordova-plugin-whitelist": {},
-            "cordova-plugin-mas-storage": {}
+            "cordova-plugin-whitelist": {}
         },
         "platforms": [
             "ios"
         ]
     },
     "dependencies": {
-        "cordova-plugin-mas-core": "^1.7.12",
-        "cordova-plugin-mas-storage": "^1.7.12",
+        "cordova-plugin-mas-core": "^1.8.0-beta1",
+        "cordova-plugin-mas-storage": "file:../../../WorkSpace/MAS/Cordova/Dev/MAS-Storage-Cordova",
         "cordova-plugin-whitelist": "^1.3.3",
         "cordova-ios": "/Users/yussy01/WorkSpace/MAS/Cordova/Dev/mas-cli/Support/cordova-ios/"
     }
