@@ -1,8 +1,8 @@
 {
   "_from": "cordova-plugin-mas-core",
-  "_id": "cordova-plugin-mas-core@1.7.12",
+  "_id": "cordova-plugin-mas-core@1.8.0-beta1",
   "_inBundle": false,
-  "_integrity": "sha512-ix2SAr5fW8yNgpUJkQQjD3/rCWQJeg8WiXiiq8WcZIEqvFbCAy43I4lnTs0JvdUKt2UQqkkaSkjXTKH4G4ZIgg==",
+  "_integrity": "sha512-yhr/joVpEdK8FJOYEBJjJfM8KtG9gUq6H2PzBxM+DyP8YCZETqSqhVpfn/KImoTIeo7YMyAetAwRpuBUgSvV1Q==",
   "_location": "/cordova-plugin-mas-core",
   "_phantomChildren": {},
   "_requested": {
@@ -19,8 +19,8 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-mas-core/-/cordova-plugin-mas-core-1.7.12.tgz",
-  "_shasum": "f506619656d1ae9188372040de4f91e23d8e1d9c",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-mas-core/-/cordova-plugin-mas-core-1.8.0-beta1.tgz",
+  "_shasum": "f2ab2b2b362bbc1249e3e6a3df1f5e46a7adafa4",
   "_spec": "cordova-plugin-mas-core",
   "_where": "/Users/yussy01/Desktop/SampleApps/MASStorage",
   "author": {
@@ -59,5 +59,5 @@
     "type": "git",
     "url": "git+https://github.com/CAAPIM/Cordova-MAS-Foundation.git"
   },
-  "version": "1.7.12"
+  "version": "1.8.0-beta1"
 }
