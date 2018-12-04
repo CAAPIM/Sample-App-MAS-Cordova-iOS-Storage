@@ -18,7 +18,7 @@
   "cordova-plugin-mas-core": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-mas-core"
+      "id": "cordova-plugin-mas-core@1.9.0-beta2"
     },
     "is_top_level": false,
     "variables": {}

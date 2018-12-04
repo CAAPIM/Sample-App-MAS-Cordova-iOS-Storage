@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A8297445ABB66D925B8981A42C9EA3D8 /* Pods-Storage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC761482C2B5EADF211F9F516965B27 /* Pods-Storage-dummy.m */; };
+		C1116D4F1AF8647EB558AE51F4138C9B /* Pods-MASStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C16612212A68ABB1E26C4B7025C15336 /* Pods-MASStorage-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		071F7C63AF7D7ECC6D186B7E1582F01A /* Pods-Storage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Storage.debug.xcconfig"; sourceTree = "<group>"; };
-		1E4C3001DCD302558F820A13F9686FCA /* Pods-Storage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Storage-frameworks.sh"; sourceTree = "<group>"; };
-		47C3CE4B22F1D311089A2EDF72948F10 /* libPods-Storage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Storage.a"; path = "libPods-Storage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85B03B7D784A1EFBFE4C92D3BB43B8B2 /* Pods-Storage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Storage-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9190166B6A7D250B7EEF0A879573167B /* Pods-Storage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Storage.release.xcconfig"; sourceTree = "<group>"; };
+		044CED9DC33F0D83BFD73CA66DE794E6 /* MASUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASUI.framework; sourceTree = "<group>"; };
+		0766AFA6834993AB004443D4BCB1CBC4 /* Pods-MASStorage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MASStorage-frameworks.sh"; sourceTree = "<group>"; };
+		439F587A0DB61196EF5608855DFFB0B7 /* Pods-MASStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MASStorage.debug.xcconfig"; sourceTree = "<group>"; };
+		614C832733E205B696C4A0E9AE470860 /* MASStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASStorage.framework; sourceTree = "<group>"; };
+		667EF8F02FAE8531505CCCA8B4FAF356 /* Pods-MASStorage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MASStorage-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CB87951048F7E5A1A7EC61322ED212DA /* Pods-Storage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Storage-resources.sh"; sourceTree = "<group>"; };
-		DAC761482C2B5EADF211F9F516965B27 /* Pods-Storage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Storage-dummy.m"; sourceTree = "<group>"; };
-		FBCBA4CF8D467247BAE1AFC555F79F74 /* Pods-Storage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Storage-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBFFE7A5A7147324AEE29F16F0732B87 /* Pods-MASStorage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MASStorage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C16612212A68ABB1E26C4B7025C15336 /* Pods-MASStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MASStorage-dummy.m"; sourceTree = "<group>"; };
+		D9D19828CEF9DFD740263DC876F2C710 /* Pods-MASStorage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MASStorage-resources.sh"; sourceTree = "<group>"; };
+		DB556EB343C33DDD1373A2484E06315C /* MASFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASFoundation.framework; sourceTree = "<group>"; };
+		E02A55F3E117E8D30C4A227FB97467E5 /* Pods-MASStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MASStorage.release.xcconfig"; sourceTree = "<group>"; };
+		F3EE25A9D855151FEC19831CD501244A /* libPods-MASStorage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MASStorage.a"; path = "libPods-MASStorage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C3903D8C5413947F6224A61EDFECCC5D /* Frameworks */ = {
+		2D4AAB2E3F6CF3959391FBF97C6FE040 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +36,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00160F048D703BF8B5F1358B6AA30F40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044CED9DC33F0D83BFD73CA66DE794E6 /* MASUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C38877703EE9B2E00E22E1384619DB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB556EB343C33DDD1373A2484E06315C /* MASFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -40,27 +59,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1030DC86EBB0A335F5576084340E405D /* Products */ = {
+		22FC853B2D03CD04DC5A33832F9B3109 /* MASFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				47C3CE4B22F1D311089A2EDF72948F10 /* libPods-Storage.a */,
+				0C38877703EE9B2E00E22E1384619DB8 /* Frameworks */,
+			);
+			name = MASFoundation;
+			path = MASFoundation;
+			sourceTree = "<group>";
+		};
+		2886D370627D4075EF908CAAD2145308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3EE25A9D855151FEC19831CD501244A /* libPods-MASStorage.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A5803EEAA149FAE5611523023AEF106 /* Pods-Storage */ = {
+		2DA161A75852F4F07AFD143DB60ADBF8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				85B03B7D784A1EFBFE4C92D3BB43B8B2 /* Pods-Storage-acknowledgements.markdown */,
-				FBCBA4CF8D467247BAE1AFC555F79F74 /* Pods-Storage-acknowledgements.plist */,
-				DAC761482C2B5EADF211F9F516965B27 /* Pods-Storage-dummy.m */,
-				1E4C3001DCD302558F820A13F9686FCA /* Pods-Storage-frameworks.sh */,
-				CB87951048F7E5A1A7EC61322ED212DA /* Pods-Storage-resources.sh */,
-				071F7C63AF7D7ECC6D186B7E1582F01A /* Pods-Storage.debug.xcconfig */,
-				9190166B6A7D250B7EEF0A879573167B /* Pods-Storage.release.xcconfig */,
+				22FC853B2D03CD04DC5A33832F9B3109 /* MASFoundation */,
+				A3179776D271B51AC059DD0501C24DDB /* MASStorage */,
+				A50DB328FC9B1E920EF1D2E9ED56C4B6 /* MASUI */,
 			);
-			name = "Pods-Storage";
-			path = "Target Support Files/Pods-Storage";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		796B2999A38EF374D69FF7C600018341 /* Pods-MASStorage */ = {
+			isa = PBXGroup;
+			children = (
+				BBFFE7A5A7147324AEE29F16F0732B87 /* Pods-MASStorage-acknowledgements.markdown */,
+				667EF8F02FAE8531505CCCA8B4FAF356 /* Pods-MASStorage-acknowledgements.plist */,
+				C16612212A68ABB1E26C4B7025C15336 /* Pods-MASStorage-dummy.m */,
+				0766AFA6834993AB004443D4BCB1CBC4 /* Pods-MASStorage-frameworks.sh */,
+				D9D19828CEF9DFD740263DC876F2C710 /* Pods-MASStorage-resources.sh */,
+				439F587A0DB61196EF5608855DFFB0B7 /* Pods-MASStorage.debug.xcconfig */,
+				E02A55F3E117E8D30C4A227FB97467E5 /* Pods-MASStorage.release.xcconfig */,
+			);
+			name = "Pods-MASStorage";
+			path = "Target Support Files/Pods-MASStorage";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -68,36 +106,63 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				1030DC86EBB0A335F5576084340E405D /* Products */,
-				A41119E60F293E833AAD08E4E19E6EAD /* Targets Support Files */,
+				2DA161A75852F4F07AFD143DB60ADBF8 /* Pods */,
+				2886D370627D4075EF908CAAD2145308 /* Products */,
+				7FC7BAD90FE4EC8F2A33131E9D0327D1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A41119E60F293E833AAD08E4E19E6EAD /* Targets Support Files */ = {
+		7FC7BAD90FE4EC8F2A33131E9D0327D1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A5803EEAA149FAE5611523023AEF106 /* Pods-Storage */,
+				796B2999A38EF374D69FF7C600018341 /* Pods-MASStorage */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A3179776D271B51AC059DD0501C24DDB /* MASStorage */ = {
+			isa = PBXGroup;
+			children = (
+				AC8ED20DAA863D9B693B31256CB00432 /* Frameworks */,
+			);
+			name = MASStorage;
+			path = MASStorage;
+			sourceTree = "<group>";
+		};
+		A50DB328FC9B1E920EF1D2E9ED56C4B6 /* MASUI */ = {
+			isa = PBXGroup;
+			children = (
+				00160F048D703BF8B5F1358B6AA30F40 /* Frameworks */,
+			);
+			name = MASUI;
+			path = MASUI;
+			sourceTree = "<group>";
+		};
+		AC8ED20DAA863D9B693B31256CB00432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				614C832733E205B696C4A0E9AE470860 /* MASStorage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D7E0E23186D64DBFEA81495EAF448B8 /* Pods-Storage */ = {
+		055699CCF98C29AACE49D962238D6F6E /* Pods-MASStorage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6BA95D8FD982BC90E95F686F4FEADE7 /* Build configuration list for PBXNativeTarget "Pods-Storage" */;
+			buildConfigurationList = D5267C2E023797E37C396C8985413B1C /* Build configuration list for PBXNativeTarget "Pods-MASStorage" */;
 			buildPhases = (
-				97103320375EF913092DB3E528B1B434 /* Sources */,
-				C3903D8C5413947F6224A61EDFECCC5D /* Frameworks */,
+				C02F3208D0B19C62B8BFE281C903C9A9 /* Sources */,
+				2D4AAB2E3F6CF3959391FBF97C6FE040 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Storage";
-			productName = "Pods-Storage";
-			productReference = 47C3CE4B22F1D311089A2EDF72948F10 /* libPods-Storage.a */;
+			name = "Pods-MASStorage";
+			productName = "Pods-MASStorage";
+			productReference = F3EE25A9D855151FEC19831CD501244A /* libPods-MASStorage.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -117,21 +182,21 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1030DC86EBB0A335F5576084340E405D /* Products */;
+			productRefGroup = 2886D370627D4075EF908CAAD2145308 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D7E0E23186D64DBFEA81495EAF448B8 /* Pods-Storage */,
+				055699CCF98C29AACE49D962238D6F6E /* Pods-MASStorage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		97103320375EF913092DB3E528B1B434 /* Sources */ = {
+		C02F3208D0B19C62B8BFE281C903C9A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8297445ABB66D925B8981A42C9EA3D8 /* Pods-Storage-dummy.m in Sources */,
+				C1116D4F1AF8647EB558AE51F4138C9B /* Pods-MASStorage-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,30 +266,9 @@
 			};
 			name = Debug;
 		};
-		23A5A56C0C856A83C58A87D012D0AF29 /* Debug */ = {
+		3A422CD1EC4C44229366AAFCF449B985 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 071F7C63AF7D7ECC6D186B7E1582F01A /* Pods-Storage.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		93E392FB0E3D369BB4C5329B4EB44E79 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9190166B6A7D250B7EEF0A879573167B /* Pods-Storage.release.xcconfig */;
+			baseConfigurationReference = E02A55F3E117E8D30C4A227FB97467E5 /* Pods-MASStorage.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -243,6 +287,27 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		F627DDAD85C12A4B57416BB94696A4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439F587A0DB61196EF5608855DFFB0B7 /* Pods-MASStorage.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -314,11 +379,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6BA95D8FD982BC90E95F686F4FEADE7 /* Build configuration list for PBXNativeTarget "Pods-Storage" */ = {
+		D5267C2E023797E37C396C8985413B1C /* Build configuration list for PBXNativeTarget "Pods-MASStorage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23A5A56C0C856A83C58A87D012D0AF29 /* Debug */,
-				93E392FB0E3D369BB4C5329B4EB44E79 /* Release */,
+				F627DDAD85C12A4B57416BB94696A4F2 /* Debug */,
+				3A422CD1EC4C44229366AAFCF449B985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
