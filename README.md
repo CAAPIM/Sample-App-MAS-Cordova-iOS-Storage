@@ -5,7 +5,7 @@
 3. If you want to point to latest MAS iOS Native dependencies, run the following command :
 
 ```
-cd ./MASFoundation/platforms/ios
+cd ./MASStorage/platforms/ios
 pod update; pod install
 
 ```
