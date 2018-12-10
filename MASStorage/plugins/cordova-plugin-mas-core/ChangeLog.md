@@ -1,3 +1,21 @@
+# Version 1.9.00
+
+### Bug fixes
+- None
+
+### New features
+- The Mobile SDK now supports adding and viewing of Metadata for a registered Device [US528171]
+- The Mobile SDK now supports ID Token Validation for JWT signed with RS256 Algorithm [F74400]
+- Cordova API Reference Guide Enhanced to have more details [US547180]
+- Cordova plugin `remove` command now reverts the app to pre-add state [US552411]
+
+### Deprecated methods
+- None
+
+### Removed methods
+- None
+
+
 # Version 1.8.00
 
 ### Bug fixes
@@ -7,7 +25,7 @@
 - In previous releases, the Mobile SDK always enforced id_token validation during device registration and user authentication. This caused a "JWT invalid" failure if the id_token signing algorithm was not supported by the Mobile SDK. The Mobile SDK now provides the option to enable or disable id_token validation to handle unsupported id_token signing algorithms. [US532284]
 - The Mobile SDK now supports offline logout. Use the new logout call to delete or keep credentials upon error. [US520142]
 
-### Deprecated classes
+### Deprecated methods
 ```
 MASPlugin.MASUser.currentUser(function(currentUser) {
     currentUser.logout(successHandler, errorHandler);
@@ -20,7 +38,7 @@ MASPlugin.MASUser.currentUser(function(currentUser) {
 },function(error) {});
 ```
 
-### Removed classes
+### Removed methods
 - None
 
 # Version 1.7.10
@@ -33,10 +51,10 @@ MASPlugin.MASUser.currentUser(function(currentUser) {
   - MAS.setAuthCallbackHandler(authHandler)
   - MAS.removeAuthCallbackHandler()
 
-### Deprecated classes
+### Deprecated methods
 - None
 
-### Removed classes
+### Removed methods
 - None
 
 # Version 1.7
@@ -49,10 +67,10 @@ MASPlugin.MASUser.currentUser(function(currentUser) {
 - Config file preference to specify the iOS deployment target.
 - CocoaPods integration with framework podspec for iOS 'MASFoundation' framework.
 
-### Deprecated classes
+### Deprecated methods
 - None
 
-### Removed classes
+### Removed methods
 - getAuthCredentialsType has been removed.
 
 # Version 1.6.10
@@ -63,7 +81,7 @@ MASPlugin.MASUser.currentUser(function(currentUser) {
 ### New features
 - None
 
-### Deprecated classes
+### Deprecated methods
 - None
 
 # Version 1.6
@@ -77,7 +95,7 @@ MASPlugin.MASUser.currentUser(function(currentUser) {
 - Sign claims with keys to generate JWT token.
 - Login with authorization credentials with username/password, JWT token and auth code.
 
-### Deprecated classes
+### Deprecated methods
 - None.
 
 # Version 1.5
@@ -90,7 +108,7 @@ MASPlugin.MASUser.currentUser(function(currentUser) {
 - Exposed API for loginWithIdToken in MASPluginUser.
 - Now available as npm package "cordova-plugin-mas-core".
 
-### Deprecated classes
+### Deprecated methods
 - None.
 
 # Version 1.4
@@ -108,7 +126,7 @@ MASPlugin.MASUser.currentUser(function(currentUser) {
 - Change in Javascript files and index to call different native Cordova Plugins as per the flow.[US298706]
 - Added Reference Documentation for Cordova APIs [US304202]
 
-### Deprecated classes
+### Deprecated methods
 - None.
 
 # Version 1.3.00
