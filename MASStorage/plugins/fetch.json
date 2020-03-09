@@ -10,7 +10,7 @@
   "cordova-plugin-mas-core": {
     "source": {
       "type": "local",
-      "path": "/Users/yussy01/Workspace/Cordova/Release/2.0.00/test/storageapp/node_modules/cordova-plugin-mas-core"
+      "path": "/Users/yussy01/Workspace/Cordova/Release/2.1.00/Samples/MASStorage/node_modules/cordova-plugin-mas-core"
     },
     "is_top_level": true,
     "variables": {}
@@ -18,7 +18,7 @@
   "cordova-plugin-mas-storage": {
     "source": {
       "type": "local",
-      "path": "/Users/yussy01/Workspace/Cordova/Release/2.0.00/test/storageapp/node_modules/cordova-plugin-mas-storage"
+      "path": "/Users/yussy01/Workspace/Cordova/Release/2.1.00/Samples/MASStorage/node_modules/cordova-plugin-mas-storage"
     },
     "is_top_level": true,
     "variables": {}
