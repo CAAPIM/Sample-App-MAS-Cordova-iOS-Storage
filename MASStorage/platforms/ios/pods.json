@@ -24,7 +24,7 @@
         },
         "MASStorage": {
             "name": "MASStorage",
-            "spec": "~> 2.0.00",
+            "spec": "~> 2.1.00",
             "count": 1
         }
     }
